@@ -1,0 +1,57 @@
+
+.grid-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: #4e4a4a5b; 
+  padding: 30px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(109, 107, 107, 0.1); 
+}
+
+.grid-item {
+  flex: 1;
+  position: relative;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.963);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid-container {
+    flex-direction: column;
+  }
+
+  .arrow-button {
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .arrow-button {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
+
