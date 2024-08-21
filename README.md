@@ -42,6 +42,9 @@ This project, titled **image-grid-sliders**, showcases a responsive 3-column gri
 5. **View the app**:
     Open your browser and go to `http://localhost:3000` to see the project in action.
 
+## Deployment
+You can view the deployed version of this project [here](https://image-grid-slider.vercel.app/).
+
 ## Contributing
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request. For major changes, open an issue to discuss what you'd like to contribute.
 
